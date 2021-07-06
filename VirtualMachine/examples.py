@@ -1,3 +1,4 @@
+from vmachine import Machine
 def examples():
     print("** Program 1: Runs the code for `print((2+3)*4)`")
     Machine([2, 3, "+", 4, "*", "println"]).run()
