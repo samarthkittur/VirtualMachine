@@ -1,3 +1,4 @@
+from vmachine import Machine
 def repl():
     print('Hit CTRL+D or type "exit" to quit.')
 
