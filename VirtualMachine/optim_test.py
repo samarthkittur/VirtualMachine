@@ -1,3 +1,4 @@
+from vmachine import constant_fold,Machine
 def test(code = [2, 3, "+", 5, "*", "println"]):
     print("Code before optimization: %s" % str(code))
     optimized = constant_fold(code)
